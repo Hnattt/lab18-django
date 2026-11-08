@@ -9,7 +9,7 @@ python3.13 -m venv .venv
 .venv/bin/python manage.py check
 .venv/bin/python manage.py runserver 127.0.0.1:8000
 ```
-Запускайте з папки course_monitoring; .venv, db.sqlite3, кеші, .env, паролі та ключі до архіву не входять. DEBUG і запасний ключ — лише для локального навчання. Реальні ключі задаються через DJANGO_SECRET_KEY. Репозиторій віддалено не опубліковано.
+Запускайте з папки course_monitoring; .venv, db.sqlite3, кеші, .env, паролі та ключі до архіву не входять. DEBUG і запасний ключ — лише для локального навчання. Реальні ключі задаються через DJANGO_SECRET_KEY. Репозиторій етапу: https://github.com/Hnattt/lab18-django.
 
 З новою базою: `python manage.py shell < scripts/seed_lab16.py` створює пристрої з профілю.
 
