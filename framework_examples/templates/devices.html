@@ -1,0 +1,1 @@
+<!doctype html><html lang="uk"><meta charset="utf-8"><title>Пристрої</title><h1>Моніторинг обладнання</h1><ul>{% for d in devices %}<li><a href="{{ url_for('detail', device_id=d.id) }}">{{ d.name }}</a></li>{% endfor %}</ul></html>

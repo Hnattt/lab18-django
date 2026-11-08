@@ -1,0 +1,1 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><title>Нове вимірювання</title></head><body><h1>Додати вимірювання</h1><form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">Зберегти</button></form><a href="{% url 'monitoring:index' %}">На головну</a></body></html>

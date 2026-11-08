@@ -1,0 +1,3212 @@
+[
+  {
+    "variant": 1,
+    "scenario": "Архів паперових документів",
+    "devices": [
+      {
+        "name": "Архів північ",
+        "serial": "V01-A"
+      },
+      {
+        "name": "Архів південь",
+        "serial": "V01-B"
+      },
+      {
+        "name": "Коридор",
+        "serial": "V01-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V01-A",
+        "location": "Сховище А"
+      },
+      {
+        "serial": "V01-B",
+        "location": "Сховище Б"
+      }
+    ],
+    "tags": [
+      "Папір",
+      "Мікроклімат",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V01-A": [
+        "Папір",
+        "Мікроклімат"
+      ],
+      "V01-B": [
+        "Папір"
+      ],
+      "V01-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V01-A",
+        "temperature": "18.00",
+        "measured_at": "2026-10-01T08:00:00+00:00"
+      },
+      {
+        "serial": "V01-A",
+        "temperature": "20.00",
+        "measured_at": "2026-10-01T08:30:00+00:00"
+      },
+      {
+        "serial": "V01-A",
+        "temperature": "19.00",
+        "measured_at": "2026-10-01T09:00:00+00:00"
+      },
+      {
+        "serial": "V01-A",
+        "temperature": "23.00",
+        "measured_at": "2026-10-01T09:30:00+00:00"
+      },
+      {
+        "serial": "V01-A",
+        "temperature": "21.00",
+        "measured_at": "2026-10-01T10:00:00+00:00"
+      },
+      {
+        "serial": "V01-B",
+        "temperature": "20.00",
+        "measured_at": "2026-10-01T08:00:00+00:00"
+      },
+      {
+        "serial": "V01-B",
+        "temperature": "19.00",
+        "measured_at": "2026-10-01T08:30:00+00:00"
+      },
+      {
+        "serial": "V01-B",
+        "temperature": "22.00",
+        "measured_at": "2026-10-01T09:00:00+00:00"
+      },
+      {
+        "serial": "V01-B",
+        "temperature": "24.00",
+        "measured_at": "2026-10-01T09:30:00+00:00"
+      },
+      {
+        "serial": "V01-B",
+        "temperature": "21.00",
+        "measured_at": "2026-10-01T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Архів",
+      "expected_serials": [
+        "V01-A",
+        "V01-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "22",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 22. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 2,
+    "scenario": "Теплиця розсади",
+    "devices": [
+      {
+        "name": "Теплиця скло",
+        "serial": "V02-A"
+      },
+      {
+        "name": "Теплиця плівка",
+        "serial": "V02-B"
+      },
+      {
+        "name": "Двір",
+        "serial": "V02-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V02-A",
+        "location": "Скляна секція"
+      },
+      {
+        "serial": "V02-B",
+        "location": "Плівкова секція"
+      }
+    ],
+    "tags": [
+      "Розсада",
+      "Полив",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V02-A": [
+        "Розсада",
+        "Полив"
+      ],
+      "V02-B": [
+        "Розсада"
+      ],
+      "V02-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V02-A",
+        "temperature": "24.00",
+        "measured_at": "2026-10-02T08:00:00+00:00"
+      },
+      {
+        "serial": "V02-A",
+        "temperature": "26.00",
+        "measured_at": "2026-10-02T08:30:00+00:00"
+      },
+      {
+        "serial": "V02-A",
+        "temperature": "25.00",
+        "measured_at": "2026-10-02T09:00:00+00:00"
+      },
+      {
+        "serial": "V02-A",
+        "temperature": "31.00",
+        "measured_at": "2026-10-02T09:30:00+00:00"
+      },
+      {
+        "serial": "V02-A",
+        "temperature": "27.00",
+        "measured_at": "2026-10-02T10:00:00+00:00"
+      },
+      {
+        "serial": "V02-B",
+        "temperature": "27.00",
+        "measured_at": "2026-10-02T08:00:00+00:00"
+      },
+      {
+        "serial": "V02-B",
+        "temperature": "26.00",
+        "measured_at": "2026-10-02T08:30:00+00:00"
+      },
+      {
+        "serial": "V02-B",
+        "temperature": "29.00",
+        "measured_at": "2026-10-02T09:00:00+00:00"
+      },
+      {
+        "serial": "V02-B",
+        "temperature": "32.00",
+        "measured_at": "2026-10-02T09:30:00+00:00"
+      },
+      {
+        "serial": "V02-B",
+        "temperature": "28.00",
+        "measured_at": "2026-10-02T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Теплиця",
+      "expected_serials": [
+        "V02-A",
+        "V02-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "30",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 30. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 3,
+    "scenario": "Холодильна кімната",
+    "devices": [
+      {
+        "name": "Холод камера",
+        "serial": "V03-A"
+      },
+      {
+        "name": "Холод шлюз",
+        "serial": "V03-B"
+      },
+      {
+        "name": "Склад",
+        "serial": "V03-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V03-A",
+        "location": "Камера зразків"
+      },
+      {
+        "serial": "V03-B",
+        "location": "Шлюз зразків"
+      }
+    ],
+    "tags": [
+      "Охолодження",
+      "Зразки",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V03-A": [
+        "Охолодження",
+        "Зразки"
+      ],
+      "V03-B": [
+        "Охолодження"
+      ],
+      "V03-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V03-A",
+        "temperature": "-8.00",
+        "measured_at": "2026-10-03T08:00:00+00:00"
+      },
+      {
+        "serial": "V03-A",
+        "temperature": "-6.00",
+        "measured_at": "2026-10-03T08:30:00+00:00"
+      },
+      {
+        "serial": "V03-A",
+        "temperature": "-7.00",
+        "measured_at": "2026-10-03T09:00:00+00:00"
+      },
+      {
+        "serial": "V03-A",
+        "temperature": "1.00",
+        "measured_at": "2026-10-03T09:30:00+00:00"
+      },
+      {
+        "serial": "V03-A",
+        "temperature": "-5.00",
+        "measured_at": "2026-10-03T10:00:00+00:00"
+      },
+      {
+        "serial": "V03-B",
+        "temperature": "-3.00",
+        "measured_at": "2026-10-03T08:00:00+00:00"
+      },
+      {
+        "serial": "V03-B",
+        "temperature": "-4.00",
+        "measured_at": "2026-10-03T08:30:00+00:00"
+      },
+      {
+        "serial": "V03-B",
+        "temperature": "-1.00",
+        "measured_at": "2026-10-03T09:00:00+00:00"
+      },
+      {
+        "serial": "V03-B",
+        "temperature": "2.00",
+        "measured_at": "2026-10-03T09:30:00+00:00"
+      },
+      {
+        "serial": "V03-B",
+        "temperature": "-2.00",
+        "measured_at": "2026-10-03T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Холод",
+      "expected_serials": [
+        "V03-A",
+        "V03-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "0",
+    "extra_criterion": "На сторінці пристрою позначайте temperature < 0. Рівність порогу не є зниженням нижче порога."
+  },
+  {
+    "variant": 4,
+    "scenario": "Майстерня кераміки",
+    "devices": [
+      {
+        "name": "Кераміка стіл",
+        "serial": "V04-A"
+      },
+      {
+        "name": "Кераміка полиця",
+        "serial": "V04-B"
+      },
+      {
+        "name": "Передпокій",
+        "serial": "V04-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V04-A",
+        "location": "Робочий стіл"
+      },
+      {
+        "serial": "V04-B",
+        "location": "Сушильна полиця"
+      }
+    ],
+    "tags": [
+      "Глина",
+      "Сушіння",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V04-A": [
+        "Глина",
+        "Сушіння"
+      ],
+      "V04-B": [
+        "Глина"
+      ],
+      "V04-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V04-A",
+        "temperature": "21.00",
+        "measured_at": "2026-10-04T08:00:00+00:00"
+      },
+      {
+        "serial": "V04-A",
+        "temperature": "23.00",
+        "measured_at": "2026-10-04T08:30:00+00:00"
+      },
+      {
+        "serial": "V04-A",
+        "temperature": "22.00",
+        "measured_at": "2026-10-04T09:00:00+00:00"
+      },
+      {
+        "serial": "V04-A",
+        "temperature": "29.00",
+        "measured_at": "2026-10-04T09:30:00+00:00"
+      },
+      {
+        "serial": "V04-A",
+        "temperature": "24.00",
+        "measured_at": "2026-10-04T10:00:00+00:00"
+      },
+      {
+        "serial": "V04-B",
+        "temperature": "26.00",
+        "measured_at": "2026-10-04T08:00:00+00:00"
+      },
+      {
+        "serial": "V04-B",
+        "temperature": "25.00",
+        "measured_at": "2026-10-04T08:30:00+00:00"
+      },
+      {
+        "serial": "V04-B",
+        "temperature": "28.00",
+        "measured_at": "2026-10-04T09:00:00+00:00"
+      },
+      {
+        "serial": "V04-B",
+        "temperature": "30.00",
+        "measured_at": "2026-10-04T09:30:00+00:00"
+      },
+      {
+        "serial": "V04-B",
+        "temperature": "27.00",
+        "measured_at": "2026-10-04T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Кераміка",
+      "expected_serials": [
+        "V04-A",
+        "V04-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "28",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 28. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 5,
+    "scenario": "Кімната мережевого обладнання",
+    "devices": [
+      {
+        "name": "Мережа стійка",
+        "serial": "V05-A"
+      },
+      {
+        "name": "Мережа шафа",
+        "serial": "V05-B"
+      },
+      {
+        "name": "Офіс",
+        "serial": "V05-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V05-A",
+        "location": "Стійка А"
+      },
+      {
+        "serial": "V05-B",
+        "location": "Шафа Б"
+      }
+    ],
+    "tags": [
+      "Мережеве",
+      "Вентиляція",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V05-A": [
+        "Мережеве",
+        "Вентиляція"
+      ],
+      "V05-B": [
+        "Мережеве"
+      ],
+      "V05-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V05-A",
+        "temperature": "29.00",
+        "measured_at": "2026-10-05T08:00:00+00:00"
+      },
+      {
+        "serial": "V05-A",
+        "temperature": "31.00",
+        "measured_at": "2026-10-05T08:30:00+00:00"
+      },
+      {
+        "serial": "V05-A",
+        "temperature": "30.00",
+        "measured_at": "2026-10-05T09:00:00+00:00"
+      },
+      {
+        "serial": "V05-A",
+        "temperature": "36.00",
+        "measured_at": "2026-10-05T09:30:00+00:00"
+      },
+      {
+        "serial": "V05-A",
+        "temperature": "32.00",
+        "measured_at": "2026-10-05T10:00:00+00:00"
+      },
+      {
+        "serial": "V05-B",
+        "temperature": "33.00",
+        "measured_at": "2026-10-05T08:00:00+00:00"
+      },
+      {
+        "serial": "V05-B",
+        "temperature": "32.00",
+        "measured_at": "2026-10-05T08:30:00+00:00"
+      },
+      {
+        "serial": "V05-B",
+        "temperature": "35.00",
+        "measured_at": "2026-10-05T09:00:00+00:00"
+      },
+      {
+        "serial": "V05-B",
+        "temperature": "37.00",
+        "measured_at": "2026-10-05T09:30:00+00:00"
+      },
+      {
+        "serial": "V05-B",
+        "temperature": "34.00",
+        "measured_at": "2026-10-05T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Мережа",
+      "expected_serials": [
+        "V05-A",
+        "V05-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "35",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 35. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 6,
+    "scenario": "Лабораторія оптики",
+    "devices": [
+      {
+        "name": "Оптика стіл",
+        "serial": "V06-A"
+      },
+      {
+        "name": "Оптика стенд",
+        "serial": "V06-B"
+      },
+      {
+        "name": "Комора",
+        "serial": "V06-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V06-A",
+        "location": "Стіл юстування"
+      },
+      {
+        "serial": "V06-B",
+        "location": "Стенд лінз"
+      }
+    ],
+    "tags": [
+      "Лінзи",
+      "Точність",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V06-A": [
+        "Лінзи",
+        "Точність"
+      ],
+      "V06-B": [
+        "Лінзи"
+      ],
+      "V06-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V06-A",
+        "temperature": "20.00",
+        "measured_at": "2026-10-06T08:00:00+00:00"
+      },
+      {
+        "serial": "V06-A",
+        "temperature": "22.00",
+        "measured_at": "2026-10-06T08:30:00+00:00"
+      },
+      {
+        "serial": "V06-A",
+        "temperature": "21.00",
+        "measured_at": "2026-10-06T09:00:00+00:00"
+      },
+      {
+        "serial": "V06-A",
+        "temperature": "25.00",
+        "measured_at": "2026-10-06T09:30:00+00:00"
+      },
+      {
+        "serial": "V06-A",
+        "temperature": "23.00",
+        "measured_at": "2026-10-06T10:00:00+00:00"
+      },
+      {
+        "serial": "V06-B",
+        "temperature": "22.00",
+        "measured_at": "2026-10-06T08:00:00+00:00"
+      },
+      {
+        "serial": "V06-B",
+        "temperature": "21.00",
+        "measured_at": "2026-10-06T08:30:00+00:00"
+      },
+      {
+        "serial": "V06-B",
+        "temperature": "24.00",
+        "measured_at": "2026-10-06T09:00:00+00:00"
+      },
+      {
+        "serial": "V06-B",
+        "temperature": "26.00",
+        "measured_at": "2026-10-06T09:30:00+00:00"
+      },
+      {
+        "serial": "V06-B",
+        "temperature": "23.00",
+        "measured_at": "2026-10-06T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Оптика",
+      "expected_serials": [
+        "V06-A",
+        "V06-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "24",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  },
+  {
+    "variant": 7,
+    "scenario": "Сховище насіння",
+    "devices": [
+      {
+        "name": "Насіння бокс",
+        "serial": "V07-A"
+      },
+      {
+        "name": "Насіння шафа",
+        "serial": "V07-B"
+      },
+      {
+        "name": "Тамбур",
+        "serial": "V07-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V07-A",
+        "location": "Бокс сухий"
+      },
+      {
+        "serial": "V07-B",
+        "location": "Шафа суха"
+      }
+    ],
+    "tags": [
+      "Насіння",
+      "Сухе",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V07-A": [
+        "Насіння",
+        "Сухе"
+      ],
+      "V07-B": [
+        "Насіння"
+      ],
+      "V07-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V07-A",
+        "temperature": "8.00",
+        "measured_at": "2026-10-07T08:00:00+00:00"
+      },
+      {
+        "serial": "V07-A",
+        "temperature": "10.00",
+        "measured_at": "2026-10-07T08:30:00+00:00"
+      },
+      {
+        "serial": "V07-A",
+        "temperature": "9.00",
+        "measured_at": "2026-10-07T09:00:00+00:00"
+      },
+      {
+        "serial": "V07-A",
+        "temperature": "15.00",
+        "measured_at": "2026-10-07T09:30:00+00:00"
+      },
+      {
+        "serial": "V07-A",
+        "temperature": "11.00",
+        "measured_at": "2026-10-07T10:00:00+00:00"
+      },
+      {
+        "serial": "V07-B",
+        "temperature": "11.00",
+        "measured_at": "2026-10-07T08:00:00+00:00"
+      },
+      {
+        "serial": "V07-B",
+        "temperature": "10.00",
+        "measured_at": "2026-10-07T08:30:00+00:00"
+      },
+      {
+        "serial": "V07-B",
+        "temperature": "13.00",
+        "measured_at": "2026-10-07T09:00:00+00:00"
+      },
+      {
+        "serial": "V07-B",
+        "temperature": "16.00",
+        "measured_at": "2026-10-07T09:30:00+00:00"
+      },
+      {
+        "serial": "V07-B",
+        "temperature": "12.00",
+        "measured_at": "2026-10-07T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Насіння",
+      "expected_serials": [
+        "V07-A",
+        "V07-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "14",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 14. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 8,
+    "scenario": "Музейний фонд",
+    "devices": [
+      {
+        "name": "Фонд тканини",
+        "serial": "V08-A"
+      },
+      {
+        "name": "Фонд дерево",
+        "serial": "V08-B"
+      },
+      {
+        "name": "Вестибюль",
+        "serial": "V08-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V08-A",
+        "location": "Секція тканини"
+      },
+      {
+        "serial": "V08-B",
+        "location": "Секція дерева"
+      }
+    ],
+    "tags": [
+      "Експонати",
+      "Збереження",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V08-A": [
+        "Експонати",
+        "Збереження"
+      ],
+      "V08-B": [
+        "Експонати"
+      ],
+      "V08-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V08-A",
+        "temperature": "17.00",
+        "measured_at": "2026-10-08T08:00:00+00:00"
+      },
+      {
+        "serial": "V08-A",
+        "temperature": "19.00",
+        "measured_at": "2026-10-08T08:30:00+00:00"
+      },
+      {
+        "serial": "V08-A",
+        "temperature": "18.00",
+        "measured_at": "2026-10-08T09:00:00+00:00"
+      },
+      {
+        "serial": "V08-A",
+        "temperature": "22.00",
+        "measured_at": "2026-10-08T09:30:00+00:00"
+      },
+      {
+        "serial": "V08-A",
+        "temperature": "20.00",
+        "measured_at": "2026-10-08T10:00:00+00:00"
+      },
+      {
+        "serial": "V08-B",
+        "temperature": "19.00",
+        "measured_at": "2026-10-08T08:00:00+00:00"
+      },
+      {
+        "serial": "V08-B",
+        "temperature": "18.00",
+        "measured_at": "2026-10-08T08:30:00+00:00"
+      },
+      {
+        "serial": "V08-B",
+        "temperature": "21.00",
+        "measured_at": "2026-10-08T09:00:00+00:00"
+      },
+      {
+        "serial": "V08-B",
+        "temperature": "23.00",
+        "measured_at": "2026-10-08T09:30:00+00:00"
+      },
+      {
+        "serial": "V08-B",
+        "temperature": "20.00",
+        "measured_at": "2026-10-08T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Фонд",
+      "expected_serials": [
+        "V08-A",
+        "V08-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "21",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  },
+  {
+    "variant": 9,
+    "scenario": "Майстерня електроніки",
+    "devices": [
+      {
+        "name": "Плата стенд",
+        "serial": "V09-A"
+      },
+      {
+        "name": "Плата стіл",
+        "serial": "V09-B"
+      },
+      {
+        "name": "Склад",
+        "serial": "V09-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V09-A",
+        "location": "Стенд монтажу"
+      },
+      {
+        "serial": "V09-B",
+        "location": "Стіл паяння"
+      }
+    ],
+    "tags": [
+      "Електроніка",
+      "Монтаж",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V09-A": [
+        "Електроніка",
+        "Монтаж"
+      ],
+      "V09-B": [
+        "Електроніка"
+      ],
+      "V09-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V09-A",
+        "temperature": "26.00",
+        "measured_at": "2026-10-09T08:00:00+00:00"
+      },
+      {
+        "serial": "V09-A",
+        "temperature": "28.00",
+        "measured_at": "2026-10-09T08:30:00+00:00"
+      },
+      {
+        "serial": "V09-A",
+        "temperature": "27.00",
+        "measured_at": "2026-10-09T09:00:00+00:00"
+      },
+      {
+        "serial": "V09-A",
+        "temperature": "35.00",
+        "measured_at": "2026-10-09T09:30:00+00:00"
+      },
+      {
+        "serial": "V09-A",
+        "temperature": "29.00",
+        "measured_at": "2026-10-09T10:00:00+00:00"
+      },
+      {
+        "serial": "V09-B",
+        "temperature": "30.00",
+        "measured_at": "2026-10-09T08:00:00+00:00"
+      },
+      {
+        "serial": "V09-B",
+        "temperature": "29.00",
+        "measured_at": "2026-10-09T08:30:00+00:00"
+      },
+      {
+        "serial": "V09-B",
+        "temperature": "32.00",
+        "measured_at": "2026-10-09T09:00:00+00:00"
+      },
+      {
+        "serial": "V09-B",
+        "temperature": "36.00",
+        "measured_at": "2026-10-09T09:30:00+00:00"
+      },
+      {
+        "serial": "V09-B",
+        "temperature": "31.00",
+        "measured_at": "2026-10-09T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Плата",
+      "expected_serials": [
+        "V09-A",
+        "V09-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "34",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 34. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 10,
+    "scenario": "Навчальна метеостанція",
+    "devices": [
+      {
+        "name": "Метео щогла",
+        "serial": "V10-A"
+      },
+      {
+        "name": "Метео будка",
+        "serial": "V10-B"
+      },
+      {
+        "name": "Лабораторія",
+        "serial": "V10-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V10-A",
+        "location": "Щогла умовна"
+      },
+      {
+        "serial": "V10-B",
+        "location": "Будка умовна"
+      }
+    ],
+    "tags": [
+      "Погода",
+      "Вулиця",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V10-A": [
+        "Погода",
+        "Вулиця"
+      ],
+      "V10-B": [
+        "Погода"
+      ],
+      "V10-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V10-A",
+        "temperature": "-12.00",
+        "measured_at": "2026-10-10T08:00:00+00:00"
+      },
+      {
+        "serial": "V10-A",
+        "temperature": "-10.00",
+        "measured_at": "2026-10-10T08:30:00+00:00"
+      },
+      {
+        "serial": "V10-A",
+        "temperature": "-11.00",
+        "measured_at": "2026-10-10T09:00:00+00:00"
+      },
+      {
+        "serial": "V10-A",
+        "temperature": "3.00",
+        "measured_at": "2026-10-10T09:30:00+00:00"
+      },
+      {
+        "serial": "V10-A",
+        "temperature": "-9.00",
+        "measured_at": "2026-10-10T10:00:00+00:00"
+      },
+      {
+        "serial": "V10-B",
+        "temperature": "-5.00",
+        "measured_at": "2026-10-10T08:00:00+00:00"
+      },
+      {
+        "serial": "V10-B",
+        "temperature": "-6.00",
+        "measured_at": "2026-10-10T08:30:00+00:00"
+      },
+      {
+        "serial": "V10-B",
+        "temperature": "-3.00",
+        "measured_at": "2026-10-10T09:00:00+00:00"
+      },
+      {
+        "serial": "V10-B",
+        "temperature": "4.00",
+        "measured_at": "2026-10-10T09:30:00+00:00"
+      },
+      {
+        "serial": "V10-B",
+        "temperature": "-4.00",
+        "measured_at": "2026-10-10T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Метео",
+      "expected_serials": [
+        "V10-A",
+        "V10-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "2",
+    "extra_criterion": "На сторінці пристрою позначайте temperature < 2. Рівність порогу не є зниженням нижче порога."
+  },
+  {
+    "variant": 11,
+    "scenario": "Сушарка трав",
+    "devices": [
+      {
+        "name": "Трава лоток",
+        "serial": "V11-A"
+      },
+      {
+        "name": "Трава полиця",
+        "serial": "V11-B"
+      },
+      {
+        "name": "Комора",
+        "serial": "V11-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V11-A",
+        "location": "Лоток верхній"
+      },
+      {
+        "serial": "V11-B",
+        "location": "Полиця нижня"
+      }
+    ],
+    "tags": [
+      "Рослини",
+      "Сушіння",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V11-A": [
+        "Рослини",
+        "Сушіння"
+      ],
+      "V11-B": [
+        "Рослини"
+      ],
+      "V11-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V11-A",
+        "temperature": "36.00",
+        "measured_at": "2026-10-11T08:00:00+00:00"
+      },
+      {
+        "serial": "V11-A",
+        "temperature": "38.00",
+        "measured_at": "2026-10-11T08:30:00+00:00"
+      },
+      {
+        "serial": "V11-A",
+        "temperature": "37.00",
+        "measured_at": "2026-10-11T09:00:00+00:00"
+      },
+      {
+        "serial": "V11-A",
+        "temperature": "46.00",
+        "measured_at": "2026-10-11T09:30:00+00:00"
+      },
+      {
+        "serial": "V11-A",
+        "temperature": "39.00",
+        "measured_at": "2026-10-11T10:00:00+00:00"
+      },
+      {
+        "serial": "V11-B",
+        "temperature": "42.00",
+        "measured_at": "2026-10-11T08:00:00+00:00"
+      },
+      {
+        "serial": "V11-B",
+        "temperature": "41.00",
+        "measured_at": "2026-10-11T08:30:00+00:00"
+      },
+      {
+        "serial": "V11-B",
+        "temperature": "44.00",
+        "measured_at": "2026-10-11T09:00:00+00:00"
+      },
+      {
+        "serial": "V11-B",
+        "temperature": "47.00",
+        "measured_at": "2026-10-11T09:30:00+00:00"
+      },
+      {
+        "serial": "V11-B",
+        "temperature": "43.00",
+        "measured_at": "2026-10-11T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Трава",
+      "expected_serials": [
+        "V11-A",
+        "V11-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "45",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 45. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 12,
+    "scenario": "Камера калібрування",
+    "devices": [
+      {
+        "name": "Калібр еталон",
+        "serial": "V12-A"
+      },
+      {
+        "name": "Калібр стенд",
+        "serial": "V12-B"
+      },
+      {
+        "name": "Коридор",
+        "serial": "V12-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V12-A",
+        "location": "Еталонна зона"
+      },
+      {
+        "serial": "V12-B",
+        "location": "Випробувальна зона"
+      }
+    ],
+    "tags": [
+      "Еталон",
+      "Перевірка",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V12-A": [
+        "Еталон",
+        "Перевірка"
+      ],
+      "V12-B": [
+        "Еталон"
+      ],
+      "V12-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V12-A",
+        "temperature": "40.00",
+        "measured_at": "2026-10-12T08:00:00+00:00"
+      },
+      {
+        "serial": "V12-A",
+        "temperature": "42.00",
+        "measured_at": "2026-10-12T08:30:00+00:00"
+      },
+      {
+        "serial": "V12-A",
+        "temperature": "41.00",
+        "measured_at": "2026-10-12T09:00:00+00:00"
+      },
+      {
+        "serial": "V12-A",
+        "temperature": "49.00",
+        "measured_at": "2026-10-12T09:30:00+00:00"
+      },
+      {
+        "serial": "V12-A",
+        "temperature": "43.00",
+        "measured_at": "2026-10-12T10:00:00+00:00"
+      },
+      {
+        "serial": "V12-B",
+        "temperature": "44.00",
+        "measured_at": "2026-10-12T08:00:00+00:00"
+      },
+      {
+        "serial": "V12-B",
+        "temperature": "43.00",
+        "measured_at": "2026-10-12T08:30:00+00:00"
+      },
+      {
+        "serial": "V12-B",
+        "temperature": "46.00",
+        "measured_at": "2026-10-12T09:00:00+00:00"
+      },
+      {
+        "serial": "V12-B",
+        "temperature": "50.00",
+        "measured_at": "2026-10-12T09:30:00+00:00"
+      },
+      {
+        "serial": "V12-B",
+        "temperature": "45.00",
+        "measured_at": "2026-10-12T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Калібр",
+      "expected_serials": [
+        "V12-A",
+        "V12-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "48",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  },
+  {
+    "variant": 13,
+    "scenario": "Книжкове сховище",
+    "devices": [
+      {
+        "name": "Книга стелаж",
+        "serial": "V13-A"
+      },
+      {
+        "name": "Книга шафа",
+        "serial": "V13-B"
+      },
+      {
+        "name": "Читальня",
+        "serial": "V13-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V13-A",
+        "location": "Стелаж навчальний"
+      },
+      {
+        "serial": "V13-B",
+        "location": "Шафа навчальна"
+      }
+    ],
+    "tags": [
+      "Книги",
+      "Папір",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V13-A": [
+        "Книги",
+        "Папір"
+      ],
+      "V13-B": [
+        "Книги"
+      ],
+      "V13-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V13-A",
+        "temperature": "16.00",
+        "measured_at": "2026-10-13T08:00:00+00:00"
+      },
+      {
+        "serial": "V13-A",
+        "temperature": "18.00",
+        "measured_at": "2026-10-13T08:30:00+00:00"
+      },
+      {
+        "serial": "V13-A",
+        "temperature": "17.00",
+        "measured_at": "2026-10-13T09:00:00+00:00"
+      },
+      {
+        "serial": "V13-A",
+        "temperature": "24.00",
+        "measured_at": "2026-10-13T09:30:00+00:00"
+      },
+      {
+        "serial": "V13-A",
+        "temperature": "19.00",
+        "measured_at": "2026-10-13T10:00:00+00:00"
+      },
+      {
+        "serial": "V13-B",
+        "temperature": "20.00",
+        "measured_at": "2026-10-13T08:00:00+00:00"
+      },
+      {
+        "serial": "V13-B",
+        "temperature": "19.00",
+        "measured_at": "2026-10-13T08:30:00+00:00"
+      },
+      {
+        "serial": "V13-B",
+        "temperature": "22.00",
+        "measured_at": "2026-10-13T09:00:00+00:00"
+      },
+      {
+        "serial": "V13-B",
+        "temperature": "25.00",
+        "measured_at": "2026-10-13T09:30:00+00:00"
+      },
+      {
+        "serial": "V13-B",
+        "temperature": "21.00",
+        "measured_at": "2026-10-13T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Книга",
+      "expected_serials": [
+        "V13-A",
+        "V13-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "23",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 23. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 14,
+    "scenario": "Оранжерея кактусів",
+    "devices": [
+      {
+        "name": "Кактус схід",
+        "serial": "V14-A"
+      },
+      {
+        "name": "Кактус захід",
+        "serial": "V14-B"
+      },
+      {
+        "name": "Сад",
+        "serial": "V14-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V14-A",
+        "location": "Східна секція"
+      },
+      {
+        "serial": "V14-B",
+        "location": "Західна секція"
+      }
+    ],
+    "tags": [
+      "Кактуси",
+      "Сонце",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V14-A": [
+        "Кактуси",
+        "Сонце"
+      ],
+      "V14-B": [
+        "Кактуси"
+      ],
+      "V14-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V14-A",
+        "temperature": "28.00",
+        "measured_at": "2026-10-14T08:00:00+00:00"
+      },
+      {
+        "serial": "V14-A",
+        "temperature": "30.00",
+        "measured_at": "2026-10-14T08:30:00+00:00"
+      },
+      {
+        "serial": "V14-A",
+        "temperature": "29.00",
+        "measured_at": "2026-10-14T09:00:00+00:00"
+      },
+      {
+        "serial": "V14-A",
+        "temperature": "39.00",
+        "measured_at": "2026-10-14T09:30:00+00:00"
+      },
+      {
+        "serial": "V14-A",
+        "temperature": "31.00",
+        "measured_at": "2026-10-14T10:00:00+00:00"
+      },
+      {
+        "serial": "V14-B",
+        "temperature": "34.00",
+        "measured_at": "2026-10-14T08:00:00+00:00"
+      },
+      {
+        "serial": "V14-B",
+        "temperature": "33.00",
+        "measured_at": "2026-10-14T08:30:00+00:00"
+      },
+      {
+        "serial": "V14-B",
+        "temperature": "36.00",
+        "measured_at": "2026-10-14T09:00:00+00:00"
+      },
+      {
+        "serial": "V14-B",
+        "temperature": "40.00",
+        "measured_at": "2026-10-14T09:30:00+00:00"
+      },
+      {
+        "serial": "V14-B",
+        "temperature": "35.00",
+        "measured_at": "2026-10-14T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Кактус",
+      "expected_serials": [
+        "V14-A",
+        "V14-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "38",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 38. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 15,
+    "scenario": "Камера морозостійкості",
+    "devices": [
+      {
+        "name": "Мороз бокс",
+        "serial": "V15-A"
+      },
+      {
+        "name": "Мороз стенд",
+        "serial": "V15-B"
+      },
+      {
+        "name": "Кімната",
+        "serial": "V15-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V15-A",
+        "location": "Бокс випробувань"
+      },
+      {
+        "serial": "V15-B",
+        "location": "Стенд випробувань"
+      }
+    ],
+    "tags": [
+      "Мороз",
+      "Матеріали",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V15-A": [
+        "Мороз",
+        "Матеріали"
+      ],
+      "V15-B": [
+        "Мороз"
+      ],
+      "V15-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V15-A",
+        "temperature": "-35.00",
+        "measured_at": "2026-10-15T08:00:00+00:00"
+      },
+      {
+        "serial": "V15-A",
+        "temperature": "-33.00",
+        "measured_at": "2026-10-15T08:30:00+00:00"
+      },
+      {
+        "serial": "V15-A",
+        "temperature": "-34.00",
+        "measured_at": "2026-10-15T09:00:00+00:00"
+      },
+      {
+        "serial": "V15-A",
+        "temperature": "-24.00",
+        "measured_at": "2026-10-15T09:30:00+00:00"
+      },
+      {
+        "serial": "V15-A",
+        "temperature": "-32.00",
+        "measured_at": "2026-10-15T10:00:00+00:00"
+      },
+      {
+        "serial": "V15-B",
+        "temperature": "-28.00",
+        "measured_at": "2026-10-15T08:00:00+00:00"
+      },
+      {
+        "serial": "V15-B",
+        "temperature": "-29.00",
+        "measured_at": "2026-10-15T08:30:00+00:00"
+      },
+      {
+        "serial": "V15-B",
+        "temperature": "-26.00",
+        "measured_at": "2026-10-15T09:00:00+00:00"
+      },
+      {
+        "serial": "V15-B",
+        "temperature": "-23.00",
+        "measured_at": "2026-10-15T09:30:00+00:00"
+      },
+      {
+        "serial": "V15-B",
+        "temperature": "-27.00",
+        "measured_at": "2026-10-15T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Мороз",
+      "expected_serials": [
+        "V15-A",
+        "V15-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "-25",
+    "extra_criterion": "На сторінці пристрою позначайте temperature < -25. Рівність порогу не є зниженням нижче порога."
+  },
+  {
+    "variant": 16,
+    "scenario": "Навчальна пекарня",
+    "devices": [
+      {
+        "name": "Тісто стіл",
+        "serial": "V16-A"
+      },
+      {
+        "name": "Тісто шафа",
+        "serial": "V16-B"
+      },
+      {
+        "name": "Комора",
+        "serial": "V16-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V16-A",
+        "location": "Стіл підготовки"
+      },
+      {
+        "serial": "V16-B",
+        "location": "Шафа вистоювання"
+      }
+    ],
+    "tags": [
+      "Випічка",
+      "Бродіння",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V16-A": [
+        "Випічка",
+        "Бродіння"
+      ],
+      "V16-B": [
+        "Випічка"
+      ],
+      "V16-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V16-A",
+        "temperature": "25.00",
+        "measured_at": "2026-10-16T08:00:00+00:00"
+      },
+      {
+        "serial": "V16-A",
+        "temperature": "27.00",
+        "measured_at": "2026-10-16T08:30:00+00:00"
+      },
+      {
+        "serial": "V16-A",
+        "temperature": "26.00",
+        "measured_at": "2026-10-16T09:00:00+00:00"
+      },
+      {
+        "serial": "V16-A",
+        "temperature": "36.00",
+        "measured_at": "2026-10-16T09:30:00+00:00"
+      },
+      {
+        "serial": "V16-A",
+        "temperature": "28.00",
+        "measured_at": "2026-10-16T10:00:00+00:00"
+      },
+      {
+        "serial": "V16-B",
+        "temperature": "31.00",
+        "measured_at": "2026-10-16T08:00:00+00:00"
+      },
+      {
+        "serial": "V16-B",
+        "temperature": "30.00",
+        "measured_at": "2026-10-16T08:30:00+00:00"
+      },
+      {
+        "serial": "V16-B",
+        "temperature": "33.00",
+        "measured_at": "2026-10-16T09:00:00+00:00"
+      },
+      {
+        "serial": "V16-B",
+        "temperature": "37.00",
+        "measured_at": "2026-10-16T09:30:00+00:00"
+      },
+      {
+        "serial": "V16-B",
+        "temperature": "32.00",
+        "measured_at": "2026-10-16T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Тісто",
+      "expected_serials": [
+        "V16-A",
+        "V16-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "35",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 35. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 17,
+    "scenario": "Студія звукозапису",
+    "devices": [
+      {
+        "name": "Студія апаратна",
+        "serial": "V17-A"
+      },
+      {
+        "name": "Студія кабіна",
+        "serial": "V17-B"
+      },
+      {
+        "name": "Фоє",
+        "serial": "V17-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V17-A",
+        "location": "Апаратна умовна"
+      },
+      {
+        "serial": "V17-B",
+        "location": "Кабіна умовна"
+      }
+    ],
+    "tags": [
+      "Аудіо",
+      "Тиша",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V17-A": [
+        "Аудіо",
+        "Тиша"
+      ],
+      "V17-B": [
+        "Аудіо"
+      ],
+      "V17-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V17-A",
+        "temperature": "19.00",
+        "measured_at": "2026-10-17T08:00:00+00:00"
+      },
+      {
+        "serial": "V17-A",
+        "temperature": "21.00",
+        "measured_at": "2026-10-17T08:30:00+00:00"
+      },
+      {
+        "serial": "V17-A",
+        "temperature": "20.00",
+        "measured_at": "2026-10-17T09:00:00+00:00"
+      },
+      {
+        "serial": "V17-A",
+        "temperature": "27.00",
+        "measured_at": "2026-10-17T09:30:00+00:00"
+      },
+      {
+        "serial": "V17-A",
+        "temperature": "22.00",
+        "measured_at": "2026-10-17T10:00:00+00:00"
+      },
+      {
+        "serial": "V17-B",
+        "temperature": "23.00",
+        "measured_at": "2026-10-17T08:00:00+00:00"
+      },
+      {
+        "serial": "V17-B",
+        "temperature": "22.00",
+        "measured_at": "2026-10-17T08:30:00+00:00"
+      },
+      {
+        "serial": "V17-B",
+        "temperature": "25.00",
+        "measured_at": "2026-10-17T09:00:00+00:00"
+      },
+      {
+        "serial": "V17-B",
+        "temperature": "28.00",
+        "measured_at": "2026-10-17T09:30:00+00:00"
+      },
+      {
+        "serial": "V17-B",
+        "temperature": "24.00",
+        "measured_at": "2026-10-17T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Студія",
+      "expected_serials": [
+        "V17-A",
+        "V17-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "26",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  },
+  {
+    "variant": 18,
+    "scenario": "Кімната 3D друку",
+    "devices": [
+      {
+        "name": "Принтер стіл",
+        "serial": "V18-A"
+      },
+      {
+        "name": "Принтер шафа",
+        "serial": "V18-B"
+      },
+      {
+        "name": "Офіс",
+        "serial": "V18-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V18-A",
+        "location": "Стіл друку"
+      },
+      {
+        "serial": "V18-B",
+        "location": "Шафа матеріалу"
+      }
+    ],
+    "tags": [
+      "Друк",
+      "Полімер",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V18-A": [
+        "Друк",
+        "Полімер"
+      ],
+      "V18-B": [
+        "Друк"
+      ],
+      "V18-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V18-A",
+        "temperature": "32.00",
+        "measured_at": "2026-10-18T08:00:00+00:00"
+      },
+      {
+        "serial": "V18-A",
+        "temperature": "34.00",
+        "measured_at": "2026-10-18T08:30:00+00:00"
+      },
+      {
+        "serial": "V18-A",
+        "temperature": "33.00",
+        "measured_at": "2026-10-18T09:00:00+00:00"
+      },
+      {
+        "serial": "V18-A",
+        "temperature": "43.00",
+        "measured_at": "2026-10-18T09:30:00+00:00"
+      },
+      {
+        "serial": "V18-A",
+        "temperature": "35.00",
+        "measured_at": "2026-10-18T10:00:00+00:00"
+      },
+      {
+        "serial": "V18-B",
+        "temperature": "38.00",
+        "measured_at": "2026-10-18T08:00:00+00:00"
+      },
+      {
+        "serial": "V18-B",
+        "temperature": "37.00",
+        "measured_at": "2026-10-18T08:30:00+00:00"
+      },
+      {
+        "serial": "V18-B",
+        "temperature": "40.00",
+        "measured_at": "2026-10-18T09:00:00+00:00"
+      },
+      {
+        "serial": "V18-B",
+        "temperature": "44.00",
+        "measured_at": "2026-10-18T09:30:00+00:00"
+      },
+      {
+        "serial": "V18-B",
+        "temperature": "39.00",
+        "measured_at": "2026-10-18T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Принтер",
+      "expected_serials": [
+        "V18-A",
+        "V18-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "42",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 42. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 19,
+    "scenario": "Дослідна компостна станція",
+    "devices": [
+      {
+        "name": "Компост центр",
+        "serial": "V19-A"
+      },
+      {
+        "name": "Компост край",
+        "serial": "V19-B"
+      },
+      {
+        "name": "Двір",
+        "serial": "V19-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V19-A",
+        "location": "Центр контейнера"
+      },
+      {
+        "serial": "V19-B",
+        "location": "Край контейнера"
+      }
+    ],
+    "tags": [
+      "Органіка",
+      "Дослід",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V19-A": [
+        "Органіка",
+        "Дослід"
+      ],
+      "V19-B": [
+        "Органіка"
+      ],
+      "V19-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V19-A",
+        "temperature": "48.00",
+        "measured_at": "2026-10-19T08:00:00+00:00"
+      },
+      {
+        "serial": "V19-A",
+        "temperature": "50.00",
+        "measured_at": "2026-10-19T08:30:00+00:00"
+      },
+      {
+        "serial": "V19-A",
+        "temperature": "49.00",
+        "measured_at": "2026-10-19T09:00:00+00:00"
+      },
+      {
+        "serial": "V19-A",
+        "temperature": "61.00",
+        "measured_at": "2026-10-19T09:30:00+00:00"
+      },
+      {
+        "serial": "V19-A",
+        "temperature": "51.00",
+        "measured_at": "2026-10-19T10:00:00+00:00"
+      },
+      {
+        "serial": "V19-B",
+        "temperature": "55.00",
+        "measured_at": "2026-10-19T08:00:00+00:00"
+      },
+      {
+        "serial": "V19-B",
+        "temperature": "54.00",
+        "measured_at": "2026-10-19T08:30:00+00:00"
+      },
+      {
+        "serial": "V19-B",
+        "temperature": "57.00",
+        "measured_at": "2026-10-19T09:00:00+00:00"
+      },
+      {
+        "serial": "V19-B",
+        "temperature": "62.00",
+        "measured_at": "2026-10-19T09:30:00+00:00"
+      },
+      {
+        "serial": "V19-B",
+        "temperature": "56.00",
+        "measured_at": "2026-10-19T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Компост",
+      "expected_serials": [
+        "V19-A",
+        "V19-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "60",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 60. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 20,
+    "scenario": "Склад фотоматеріалів",
+    "devices": [
+      {
+        "name": "Фото шафа",
+        "serial": "V20-A"
+      },
+      {
+        "name": "Фото бокс",
+        "serial": "V20-B"
+      },
+      {
+        "name": "Тамбур",
+        "serial": "V20-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V20-A",
+        "location": "Шафа плівки"
+      },
+      {
+        "serial": "V20-B",
+        "location": "Бокс плівки"
+      }
+    ],
+    "tags": [
+      "Плівка",
+      "Темрява",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V20-A": [
+        "Плівка",
+        "Темрява"
+      ],
+      "V20-B": [
+        "Плівка"
+      ],
+      "V20-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V20-A",
+        "temperature": "10.00",
+        "measured_at": "2026-10-20T08:00:00+00:00"
+      },
+      {
+        "serial": "V20-A",
+        "temperature": "12.00",
+        "measured_at": "2026-10-20T08:30:00+00:00"
+      },
+      {
+        "serial": "V20-A",
+        "temperature": "11.00",
+        "measured_at": "2026-10-20T09:00:00+00:00"
+      },
+      {
+        "serial": "V20-A",
+        "temperature": "18.00",
+        "measured_at": "2026-10-20T09:30:00+00:00"
+      },
+      {
+        "serial": "V20-A",
+        "temperature": "13.00",
+        "measured_at": "2026-10-20T10:00:00+00:00"
+      },
+      {
+        "serial": "V20-B",
+        "temperature": "14.00",
+        "measured_at": "2026-10-20T08:00:00+00:00"
+      },
+      {
+        "serial": "V20-B",
+        "temperature": "13.00",
+        "measured_at": "2026-10-20T08:30:00+00:00"
+      },
+      {
+        "serial": "V20-B",
+        "temperature": "16.00",
+        "measured_at": "2026-10-20T09:00:00+00:00"
+      },
+      {
+        "serial": "V20-B",
+        "temperature": "19.00",
+        "measured_at": "2026-10-20T09:30:00+00:00"
+      },
+      {
+        "serial": "V20-B",
+        "temperature": "15.00",
+        "measured_at": "2026-10-20T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Фото",
+      "expected_serials": [
+        "V20-A",
+        "V20-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "17",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 17. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 21,
+    "scenario": "Кімната робототехніки",
+    "devices": [
+      {
+        "name": "Робот стенд",
+        "serial": "V21-A"
+      },
+      {
+        "name": "Робот батарея",
+        "serial": "V21-B"
+      },
+      {
+        "name": "Офіс",
+        "serial": "V21-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V21-A",
+        "location": "Стенд руху"
+      },
+      {
+        "serial": "V21-B",
+        "location": "Стіл батарей"
+      }
+    ],
+    "tags": [
+      "Роботика",
+      "Живлення",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V21-A": [
+        "Роботика",
+        "Живлення"
+      ],
+      "V21-B": [
+        "Роботика"
+      ],
+      "V21-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V21-A",
+        "temperature": "30.00",
+        "measured_at": "2026-10-21T08:00:00+00:00"
+      },
+      {
+        "serial": "V21-A",
+        "temperature": "32.00",
+        "measured_at": "2026-10-21T08:30:00+00:00"
+      },
+      {
+        "serial": "V21-A",
+        "temperature": "31.00",
+        "measured_at": "2026-10-21T09:00:00+00:00"
+      },
+      {
+        "serial": "V21-A",
+        "temperature": "41.00",
+        "measured_at": "2026-10-21T09:30:00+00:00"
+      },
+      {
+        "serial": "V21-A",
+        "temperature": "33.00",
+        "measured_at": "2026-10-21T10:00:00+00:00"
+      },
+      {
+        "serial": "V21-B",
+        "temperature": "36.00",
+        "measured_at": "2026-10-21T08:00:00+00:00"
+      },
+      {
+        "serial": "V21-B",
+        "temperature": "35.00",
+        "measured_at": "2026-10-21T08:30:00+00:00"
+      },
+      {
+        "serial": "V21-B",
+        "temperature": "38.00",
+        "measured_at": "2026-10-21T09:00:00+00:00"
+      },
+      {
+        "serial": "V21-B",
+        "temperature": "42.00",
+        "measured_at": "2026-10-21T09:30:00+00:00"
+      },
+      {
+        "serial": "V21-B",
+        "temperature": "37.00",
+        "measured_at": "2026-10-21T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Робот",
+      "expected_serials": [
+        "V21-A",
+        "V21-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "40",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 40. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 22,
+    "scenario": "Сховище геологічних зразків",
+    "devices": [
+      {
+        "name": "Камінь ящик",
+        "serial": "V22-A"
+      },
+      {
+        "name": "Камінь шафа",
+        "serial": "V22-B"
+      },
+      {
+        "name": "Зала",
+        "serial": "V22-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V22-A",
+        "location": "Ящик зразків"
+      },
+      {
+        "serial": "V22-B",
+        "location": "Шафа зразків"
+      }
+    ],
+    "tags": [
+      "Геологія",
+      "Колекція",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V22-A": [
+        "Геологія",
+        "Колекція"
+      ],
+      "V22-B": [
+        "Геологія"
+      ],
+      "V22-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V22-A",
+        "temperature": "15.00",
+        "measured_at": "2026-10-22T08:00:00+00:00"
+      },
+      {
+        "serial": "V22-A",
+        "temperature": "17.00",
+        "measured_at": "2026-10-22T08:30:00+00:00"
+      },
+      {
+        "serial": "V22-A",
+        "temperature": "16.00",
+        "measured_at": "2026-10-22T09:00:00+00:00"
+      },
+      {
+        "serial": "V22-A",
+        "temperature": "24.00",
+        "measured_at": "2026-10-22T09:30:00+00:00"
+      },
+      {
+        "serial": "V22-A",
+        "temperature": "18.00",
+        "measured_at": "2026-10-22T10:00:00+00:00"
+      },
+      {
+        "serial": "V22-B",
+        "temperature": "19.00",
+        "measured_at": "2026-10-22T08:00:00+00:00"
+      },
+      {
+        "serial": "V22-B",
+        "temperature": "18.00",
+        "measured_at": "2026-10-22T08:30:00+00:00"
+      },
+      {
+        "serial": "V22-B",
+        "temperature": "21.00",
+        "measured_at": "2026-10-22T09:00:00+00:00"
+      },
+      {
+        "serial": "V22-B",
+        "temperature": "25.00",
+        "measured_at": "2026-10-22T09:30:00+00:00"
+      },
+      {
+        "serial": "V22-B",
+        "temperature": "20.00",
+        "measured_at": "2026-10-22T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Камінь",
+      "expected_serials": [
+        "V22-A",
+        "V22-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "23",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  },
+  {
+    "variant": 23,
+    "scenario": "Термостат навчальних матеріалів",
+    "devices": [
+      {
+        "name": "Термостат зона",
+        "serial": "V23-A"
+      },
+      {
+        "name": "Термостат вихід",
+        "serial": "V23-B"
+      },
+      {
+        "name": "Склад",
+        "serial": "V23-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V23-A",
+        "location": "Зона нагріву"
+      },
+      {
+        "serial": "V23-B",
+        "location": "Вихід зони"
+      }
+    ],
+    "tags": [
+      "Нагрів",
+      "Матеріали",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V23-A": [
+        "Нагрів",
+        "Матеріали"
+      ],
+      "V23-B": [
+        "Нагрів"
+      ],
+      "V23-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V23-A",
+        "temperature": "65.00",
+        "measured_at": "2026-10-23T08:00:00+00:00"
+      },
+      {
+        "serial": "V23-A",
+        "temperature": "67.00",
+        "measured_at": "2026-10-23T08:30:00+00:00"
+      },
+      {
+        "serial": "V23-A",
+        "temperature": "66.00",
+        "measured_at": "2026-10-23T09:00:00+00:00"
+      },
+      {
+        "serial": "V23-A",
+        "temperature": "79.00",
+        "measured_at": "2026-10-23T09:30:00+00:00"
+      },
+      {
+        "serial": "V23-A",
+        "temperature": "68.00",
+        "measured_at": "2026-10-23T10:00:00+00:00"
+      },
+      {
+        "serial": "V23-B",
+        "temperature": "72.00",
+        "measured_at": "2026-10-23T08:00:00+00:00"
+      },
+      {
+        "serial": "V23-B",
+        "temperature": "71.00",
+        "measured_at": "2026-10-23T08:30:00+00:00"
+      },
+      {
+        "serial": "V23-B",
+        "temperature": "74.00",
+        "measured_at": "2026-10-23T09:00:00+00:00"
+      },
+      {
+        "serial": "V23-B",
+        "temperature": "80.00",
+        "measured_at": "2026-10-23T09:30:00+00:00"
+      },
+      {
+        "serial": "V23-B",
+        "temperature": "73.00",
+        "measured_at": "2026-10-23T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Термостат",
+      "expected_serials": [
+        "V23-A",
+        "V23-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "78",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 78. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 24,
+    "scenario": "Сховище фарб",
+    "devices": [
+      {
+        "name": "Фарба полиця",
+        "serial": "V24-A"
+      },
+      {
+        "name": "Фарба шафа",
+        "serial": "V24-B"
+      },
+      {
+        "name": "Тамбур",
+        "serial": "V24-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V24-A",
+        "location": "Полиця водних фарб"
+      },
+      {
+        "serial": "V24-B",
+        "location": "Шафа пігментів"
+      }
+    ],
+    "tags": [
+      "Фарби",
+      "Пігменти",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V24-A": [
+        "Фарби",
+        "Пігменти"
+      ],
+      "V24-B": [
+        "Фарби"
+      ],
+      "V24-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V24-A",
+        "temperature": "18.00",
+        "measured_at": "2026-10-24T08:00:00+00:00"
+      },
+      {
+        "serial": "V24-A",
+        "temperature": "20.00",
+        "measured_at": "2026-10-24T08:30:00+00:00"
+      },
+      {
+        "serial": "V24-A",
+        "temperature": "19.00",
+        "measured_at": "2026-10-24T09:00:00+00:00"
+      },
+      {
+        "serial": "V24-A",
+        "temperature": "28.00",
+        "measured_at": "2026-10-24T09:30:00+00:00"
+      },
+      {
+        "serial": "V24-A",
+        "temperature": "21.00",
+        "measured_at": "2026-10-24T10:00:00+00:00"
+      },
+      {
+        "serial": "V24-B",
+        "temperature": "23.00",
+        "measured_at": "2026-10-24T08:00:00+00:00"
+      },
+      {
+        "serial": "V24-B",
+        "temperature": "22.00",
+        "measured_at": "2026-10-24T08:30:00+00:00"
+      },
+      {
+        "serial": "V24-B",
+        "temperature": "25.00",
+        "measured_at": "2026-10-24T09:00:00+00:00"
+      },
+      {
+        "serial": "V24-B",
+        "temperature": "29.00",
+        "measured_at": "2026-10-24T09:30:00+00:00"
+      },
+      {
+        "serial": "V24-B",
+        "temperature": "24.00",
+        "measured_at": "2026-10-24T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Фарба",
+      "expected_serials": [
+        "V24-A",
+        "V24-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "27",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 27. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 25,
+    "scenario": "Камера охолодження металу",
+    "devices": [
+      {
+        "name": "Метал камера",
+        "serial": "V25-A"
+      },
+      {
+        "name": "Метал вихід",
+        "serial": "V25-B"
+      },
+      {
+        "name": "Цех",
+        "serial": "V25-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V25-A",
+        "location": "Камера макета"
+      },
+      {
+        "serial": "V25-B",
+        "location": "Вихід макета"
+      }
+    ],
+    "tags": [
+      "Метал",
+      "Охолодження",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V25-A": [
+        "Метал",
+        "Охолодження"
+      ],
+      "V25-B": [
+        "Метал"
+      ],
+      "V25-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V25-A",
+        "temperature": "-20.00",
+        "measured_at": "2026-10-25T08:00:00+00:00"
+      },
+      {
+        "serial": "V25-A",
+        "temperature": "-18.00",
+        "measured_at": "2026-10-25T08:30:00+00:00"
+      },
+      {
+        "serial": "V25-A",
+        "temperature": "-19.00",
+        "measured_at": "2026-10-25T09:00:00+00:00"
+      },
+      {
+        "serial": "V25-A",
+        "temperature": "-7.00",
+        "measured_at": "2026-10-25T09:30:00+00:00"
+      },
+      {
+        "serial": "V25-A",
+        "temperature": "-17.00",
+        "measured_at": "2026-10-25T10:00:00+00:00"
+      },
+      {
+        "serial": "V25-B",
+        "temperature": "-12.00",
+        "measured_at": "2026-10-25T08:00:00+00:00"
+      },
+      {
+        "serial": "V25-B",
+        "temperature": "-13.00",
+        "measured_at": "2026-10-25T08:30:00+00:00"
+      },
+      {
+        "serial": "V25-B",
+        "temperature": "-10.00",
+        "measured_at": "2026-10-25T09:00:00+00:00"
+      },
+      {
+        "serial": "V25-B",
+        "temperature": "-6.00",
+        "measured_at": "2026-10-25T09:30:00+00:00"
+      },
+      {
+        "serial": "V25-B",
+        "temperature": "-11.00",
+        "measured_at": "2026-10-25T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Метал",
+      "expected_serials": [
+        "V25-A",
+        "V25-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "-8",
+    "extra_criterion": "На сторінці пристрою позначайте temperature < -8. Рівність порогу не є зниженням нижче порога."
+  },
+  {
+    "variant": 26,
+    "scenario": "Лабораторія текстилю",
+    "devices": [
+      {
+        "name": "Тканина стенд",
+        "serial": "V26-A"
+      },
+      {
+        "name": "Тканина шафа",
+        "serial": "V26-B"
+      },
+      {
+        "name": "Коридор",
+        "serial": "V26-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V26-A",
+        "location": "Стенд полотна"
+      },
+      {
+        "serial": "V26-B",
+        "location": "Шафа полотна"
+      }
+    ],
+    "tags": [
+      "Текстиль",
+      "Волокно",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V26-A": [
+        "Текстиль",
+        "Волокно"
+      ],
+      "V26-B": [
+        "Текстиль"
+      ],
+      "V26-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V26-A",
+        "temperature": "22.00",
+        "measured_at": "2026-09-01T08:00:00+00:00"
+      },
+      {
+        "serial": "V26-A",
+        "temperature": "24.00",
+        "measured_at": "2026-09-01T08:30:00+00:00"
+      },
+      {
+        "serial": "V26-A",
+        "temperature": "23.00",
+        "measured_at": "2026-09-01T09:00:00+00:00"
+      },
+      {
+        "serial": "V26-A",
+        "temperature": "30.00",
+        "measured_at": "2026-09-01T09:30:00+00:00"
+      },
+      {
+        "serial": "V26-A",
+        "temperature": "25.00",
+        "measured_at": "2026-09-01T10:00:00+00:00"
+      },
+      {
+        "serial": "V26-B",
+        "temperature": "26.00",
+        "measured_at": "2026-09-01T08:00:00+00:00"
+      },
+      {
+        "serial": "V26-B",
+        "temperature": "25.00",
+        "measured_at": "2026-09-01T08:30:00+00:00"
+      },
+      {
+        "serial": "V26-B",
+        "temperature": "28.00",
+        "measured_at": "2026-09-01T09:00:00+00:00"
+      },
+      {
+        "serial": "V26-B",
+        "temperature": "31.00",
+        "measured_at": "2026-09-01T09:30:00+00:00"
+      },
+      {
+        "serial": "V26-B",
+        "temperature": "27.00",
+        "measured_at": "2026-09-01T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Тканина",
+      "expected_serials": [
+        "V26-A",
+        "V26-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "29",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  },
+  {
+    "variant": 27,
+    "scenario": "Інкубатор рослинних культур",
+    "devices": [
+      {
+        "name": "Культура бокс",
+        "serial": "V27-A"
+      },
+      {
+        "name": "Культура полиця",
+        "serial": "V27-B"
+      },
+      {
+        "name": "Комора",
+        "serial": "V27-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V27-A",
+        "location": "Бокс культур"
+      },
+      {
+        "serial": "V27-B",
+        "location": "Полиця культур"
+      }
+    ],
+    "tags": [
+      "Культури",
+      "Рослини",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V27-A": [
+        "Культури",
+        "Рослини"
+      ],
+      "V27-B": [
+        "Культури"
+      ],
+      "V27-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V27-A",
+        "temperature": "23.00",
+        "measured_at": "2026-09-02T08:00:00+00:00"
+      },
+      {
+        "serial": "V27-A",
+        "temperature": "25.00",
+        "measured_at": "2026-09-02T08:30:00+00:00"
+      },
+      {
+        "serial": "V27-A",
+        "temperature": "24.00",
+        "measured_at": "2026-09-02T09:00:00+00:00"
+      },
+      {
+        "serial": "V27-A",
+        "temperature": "33.00",
+        "measured_at": "2026-09-02T09:30:00+00:00"
+      },
+      {
+        "serial": "V27-A",
+        "temperature": "26.00",
+        "measured_at": "2026-09-02T10:00:00+00:00"
+      },
+      {
+        "serial": "V27-B",
+        "temperature": "28.00",
+        "measured_at": "2026-09-02T08:00:00+00:00"
+      },
+      {
+        "serial": "V27-B",
+        "temperature": "27.00",
+        "measured_at": "2026-09-02T08:30:00+00:00"
+      },
+      {
+        "serial": "V27-B",
+        "temperature": "30.00",
+        "measured_at": "2026-09-02T09:00:00+00:00"
+      },
+      {
+        "serial": "V27-B",
+        "temperature": "34.00",
+        "measured_at": "2026-09-02T09:30:00+00:00"
+      },
+      {
+        "serial": "V27-B",
+        "temperature": "29.00",
+        "measured_at": "2026-09-02T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Культура",
+      "expected_serials": [
+        "V27-A",
+        "V27-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "32",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 32. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 28,
+    "scenario": "Навчальна сонячна установка",
+    "devices": [
+      {
+        "name": "Сонце панель",
+        "serial": "V28-A"
+      },
+      {
+        "name": "Сонце контур",
+        "serial": "V28-B"
+      },
+      {
+        "name": "Двір",
+        "serial": "V28-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V28-A",
+        "location": "Панель макета"
+      },
+      {
+        "serial": "V28-B",
+        "location": "Контур макета"
+      }
+    ],
+    "tags": [
+      "Сонячне",
+      "Енергія",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V28-A": [
+        "Сонячне",
+        "Енергія"
+      ],
+      "V28-B": [
+        "Сонячне"
+      ],
+      "V28-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V28-A",
+        "temperature": "45.00",
+        "measured_at": "2026-09-03T08:00:00+00:00"
+      },
+      {
+        "serial": "V28-A",
+        "temperature": "47.00",
+        "measured_at": "2026-09-03T08:30:00+00:00"
+      },
+      {
+        "serial": "V28-A",
+        "temperature": "46.00",
+        "measured_at": "2026-09-03T09:00:00+00:00"
+      },
+      {
+        "serial": "V28-A",
+        "temperature": "66.00",
+        "measured_at": "2026-09-03T09:30:00+00:00"
+      },
+      {
+        "serial": "V28-A",
+        "temperature": "48.00",
+        "measured_at": "2026-09-03T10:00:00+00:00"
+      },
+      {
+        "serial": "V28-B",
+        "temperature": "58.00",
+        "measured_at": "2026-09-03T08:00:00+00:00"
+      },
+      {
+        "serial": "V28-B",
+        "temperature": "57.00",
+        "measured_at": "2026-09-03T08:30:00+00:00"
+      },
+      {
+        "serial": "V28-B",
+        "temperature": "60.00",
+        "measured_at": "2026-09-03T09:00:00+00:00"
+      },
+      {
+        "serial": "V28-B",
+        "temperature": "67.00",
+        "measured_at": "2026-09-03T09:30:00+00:00"
+      },
+      {
+        "serial": "V28-B",
+        "temperature": "59.00",
+        "measured_at": "2026-09-03T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Сонце",
+      "expected_serials": [
+        "V28-A",
+        "V28-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "65",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 65. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 29,
+    "scenario": "Сховище воскових моделей",
+    "devices": [
+      {
+        "name": "Віск стелаж",
+        "serial": "V29-A"
+      },
+      {
+        "name": "Віск бокс",
+        "serial": "V29-B"
+      },
+      {
+        "name": "Передпокій",
+        "serial": "V29-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V29-A",
+        "location": "Стелаж моделей"
+      },
+      {
+        "serial": "V29-B",
+        "location": "Бокс моделей"
+      }
+    ],
+    "tags": [
+      "Моделі",
+      "Віск",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V29-A": [
+        "Моделі",
+        "Віск"
+      ],
+      "V29-B": [
+        "Моделі"
+      ],
+      "V29-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V29-A",
+        "temperature": "17.00",
+        "measured_at": "2026-09-04T08:00:00+00:00"
+      },
+      {
+        "serial": "V29-A",
+        "temperature": "19.00",
+        "measured_at": "2026-09-04T08:30:00+00:00"
+      },
+      {
+        "serial": "V29-A",
+        "temperature": "18.00",
+        "measured_at": "2026-09-04T09:00:00+00:00"
+      },
+      {
+        "serial": "V29-A",
+        "temperature": "27.00",
+        "measured_at": "2026-09-04T09:30:00+00:00"
+      },
+      {
+        "serial": "V29-A",
+        "temperature": "20.00",
+        "measured_at": "2026-09-04T10:00:00+00:00"
+      },
+      {
+        "serial": "V29-B",
+        "temperature": "22.00",
+        "measured_at": "2026-09-04T08:00:00+00:00"
+      },
+      {
+        "serial": "V29-B",
+        "temperature": "21.00",
+        "measured_at": "2026-09-04T08:30:00+00:00"
+      },
+      {
+        "serial": "V29-B",
+        "temperature": "24.00",
+        "measured_at": "2026-09-04T09:00:00+00:00"
+      },
+      {
+        "serial": "V29-B",
+        "temperature": "28.00",
+        "measured_at": "2026-09-04T09:30:00+00:00"
+      },
+      {
+        "serial": "V29-B",
+        "temperature": "23.00",
+        "measured_at": "2026-09-04T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Віск",
+      "expected_serials": [
+        "V29-A",
+        "V29-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "26",
+    "extra_criterion": "На сторінці пристрою позначайте перевищення temperature > 26. Рівність порогу не є перевищенням."
+  },
+  {
+    "variant": 30,
+    "scenario": "Камера термічного циклу",
+    "devices": [
+      {
+        "name": "Цикл вхід",
+        "serial": "V30-A"
+      },
+      {
+        "name": "Цикл вихід",
+        "serial": "V30-B"
+      },
+      {
+        "name": "Комора",
+        "serial": "V30-C"
+      }
+    ],
+    "passports": [
+      {
+        "serial": "V30-A",
+        "location": "Вхід макета"
+      },
+      {
+        "serial": "V30-B",
+        "location": "Вихід макета"
+      }
+    ],
+    "tags": [
+      "Цикли",
+      "Випробування",
+      "Резерв"
+    ],
+    "device_tags": {
+      "V30-A": [
+        "Цикли",
+        "Випробування"
+      ],
+      "V30-B": [
+        "Цикли"
+      ],
+      "V30-C": [
+        "Резерв"
+      ]
+    },
+    "measurements": [
+      {
+        "serial": "V30-A",
+        "temperature": "85.00",
+        "measured_at": "2026-09-05T08:00:00+00:00"
+      },
+      {
+        "serial": "V30-A",
+        "temperature": "87.00",
+        "measured_at": "2026-09-05T08:30:00+00:00"
+      },
+      {
+        "serial": "V30-A",
+        "temperature": "86.00",
+        "measured_at": "2026-09-05T09:00:00+00:00"
+      },
+      {
+        "serial": "V30-A",
+        "temperature": "106.00",
+        "measured_at": "2026-09-05T09:30:00+00:00"
+      },
+      {
+        "serial": "V30-A",
+        "temperature": "88.00",
+        "measured_at": "2026-09-05T10:00:00+00:00"
+      },
+      {
+        "serial": "V30-B",
+        "temperature": "98.00",
+        "measured_at": "2026-09-05T08:00:00+00:00"
+      },
+      {
+        "serial": "V30-B",
+        "temperature": "97.00",
+        "measured_at": "2026-09-05T08:30:00+00:00"
+      },
+      {
+        "serial": "V30-B",
+        "temperature": "100.00",
+        "measured_at": "2026-09-05T09:00:00+00:00"
+      },
+      {
+        "serial": "V30-B",
+        "temperature": "107.00",
+        "measured_at": "2026-09-05T09:30:00+00:00"
+      },
+      {
+        "serial": "V30-B",
+        "temperature": "99.00",
+        "measured_at": "2026-09-05T10:00:00+00:00"
+      }
+    ],
+    "search": {
+      "q": "Цикл",
+      "expected_serials": [
+        "V30-A",
+        "V30-B"
+      ],
+      "no_match": "неіснуючий-зразок"
+    },
+    "threshold": "105",
+    "extra_criterion": "На сторінці пристрою показуйте розмах max(temperature) − min(temperature). Для відсутніх вимірювань показуйте «немає даних», не 0."
+  }
+]
