@@ -9,7 +9,7 @@
 
 ## Середовище
 
-ОС: Windows 10/11. Python 3.13.15, Django 6.1.2, SQLite 3.40.0. Підтримується Python 3.12–3.14.
+ОС: Windows 11. Перевірено: Python 3.13.17, Django 6.1.2, SQLite 3.50.4. Підтримується Python 3.12–3.14.
 
 ## Запуск (Windows, PowerShell)
 
